@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>  My first html page </title>
+<script type="text/javascript"> 
+
+function sumtion() {
+    var numOne, numTwo, sum;
+  numOne = parseInt(document.getElementById("n1").value);
+  numTwo = parseInt(document.getElementById("n2").value);
+  sum = numOne + numTwo;
+  document.getElementById("res").value = sum;
+}
+function subtraction() {
+    var numOne, numTwo, sum;
+  numOne = parseInt(document.getElementById("n1").value);
+  numTwo = parseInt(document.getElementById("n2").value);
+  sum = numOne - numTwo;
+  document.getElementById("res").value = sum;
+}
+function multyplay() {
+    var numOne, numTwo, sum;
+  numOne = parseInt(document.getElementById("n1").value);
+  numTwo = parseInt(document.getElementById("n2").value);
+  sum = numOne * numTwo;
+  document.getElementById("res").value = sum;
+}
+function divition() {
+    var numOne, numTwo, sum;
+  numOne = parseInt(document.getElementById("n1").value);
+  numTwo = parseInt(document.getElementById("n2").value);
+  sum = numOne / numTwo;
+  document.getElementById("res").value = sum;
+}
+function modelas() {
+    var numOne, numTwo, sum;
+  numOne = parseInt(document.getElementById("n1").value);
+  numTwo = parseInt(document.getElementById("n2").value);
+  sum = numOne % numTwo;
+  document.getElementById("res").value = sum;
+}
+</script> 
+</head>
+<BODY>
+    <p>View PlainPrint?</p>
+    <p>Number 1:  <input id="n1"></p>
+    <p>Number 2<input id="n2"></p>
+    <button onclick="sumtion()">Add</button>
+    <button onclick="subtraction()">Sub</button>
+    <button onclick="multyplay()">Mul</button>
+    <button onclick="divition()">Div</button>
+    <button onclick="modelas()">Mod</button>
+    <p>Get Result: <input id="res"></p> 
+        
+        
+        
+        
+</BODY>
+</HTML>
